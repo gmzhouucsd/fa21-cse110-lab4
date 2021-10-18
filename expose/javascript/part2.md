@@ -15,3 +15,19 @@
 - C. student:greeting();
 - D. student['Favorite Teacher'].name
 - E. student.courseLoad[0]
+13.
+- A. 32 because 2 converts to a string and concatenates onto 3.
+- B. 1 because 3 converts to an integer and is subtracted by 2. This happens because subtraction is uniquely a math operation.
+- C. 3 because null converts to 0 when performing math operations.
+- D. 3null because null converts to a string and concatenates to the string '3'.
+- E. 4 because true converts to 1 in math operations.
+- F. 0 because null and false both convert to 0 in math operations.
+- G. 3undefined because undefined converts to a string and concatenates to the string '3'.
+- H. NaN because undefined converts to NaN in math operations.
+14.
+- A. true because '2' converts to the integer 2, which is greater than 1.
+- B. false because '2' is bigger than the 1 in '12' in terms of the alphabet
+- C. true because '2' converts to the integer 2, which is equal to 2.
+- D. false because '2' and 2 are not equal as one is a string and the other is an integer
+- E. true because true and Boolean(2) are both boolean types, and Boolean(2) returns true.
+15. == compares two values and automatically converts types if they're different. === compares two values if and only if they are the same type. If they are of different types, it automatically returns false.
