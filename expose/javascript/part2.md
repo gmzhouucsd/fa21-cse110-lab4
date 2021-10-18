@@ -10,8 +10,8 @@
 10. Line 12 returns "3" because "const length" is defined as the length of prices, which is 3.
 11. The function will return the array [50, 100, 150] because each iteration of the for loop pushes the calculated discounted price of each inputted price into the discounted array. (100 * 0.5), (200 * 0.5), and (300 * 0.5) are all added into the array. "discounted" is declared as a const before the for loop, so it is able to return this array with values.
 12.
-A. student.name
-B. student['Grad Year']
-C. student:greeting();
-D. student['Favorite Teacher'].name
-E. student.courseLoad[0]
+- A. student.name
+- B. student['Grad Year']
+- C. student:greeting();
+- D. student['Favorite Teacher'].name
+- E. student.courseLoad[0]
