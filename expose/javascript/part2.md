@@ -31,7 +31,7 @@
 - D. false because '2' and 2 are not equal as one is a string and the other is an integer
 - E. true because true and Boolean(2) are both boolean types, and Boolean(2) returns true.
 15. == compares two values and automatically converts types if they're different. === compares two values if and only if they are the same type. If they are of different types, it automatically returns false.
-17. [2,4,6]. The for loop in modifyArray iterates through the input array and adds it into another array newArr. Before each addition to newArr, however, callback is run on the element of the input array, multiplying it by 2. Thus, we get [2,4,6].
+17. The answer is [2,4,6]. The for loop in modifyArray iterates through the input array and adds it into another array newArr. Before each addition to newArr, however, callback is run on the element of the input array, multiplying it by 2. Thus, we get [2,4,6].
 19.
 1  
 4  
